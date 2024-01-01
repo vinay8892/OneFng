@@ -523,7 +523,7 @@
 													<div class="text-center">
 
 
-													  <button style="width: 360px; text-align: center;border: 3px solid green;margin-top: 50px;">click here to get Price List</button>
+													  <button id="pricebtn" style="width: 360px; text-align: center;border: 3px solid green;margin-top: 50px;">click here to get Price List</button>
 													</div>
 													
                                                 </div>
@@ -1843,6 +1843,9 @@ jQuery(document).ready(function(){
             $('#interested-model').modal('show');
         });
         // ---------------for model only-----
+		$("#pricebtn").click(function () {
+            $('#price-model').modal('show');
+        });
     });
 </script>
 <script>
