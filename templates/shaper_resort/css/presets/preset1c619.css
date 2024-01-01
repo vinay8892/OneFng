@@ -1,0 +1,308 @@
+a {
+  color: #e1ad4f;
+}
+a:hover {
+  color: #00a4be;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #e1ad4f;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  color: #e1ad4f;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #e1ad4f;
+}
+#offcanvas-toggler >i {
+  color: #d80a5c;
+}
+#offcanvas-toggler >i:hover {
+  color: #d80a5c;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #dda135;
+  background-color: #e1ad4f;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: transparent;
+  background-color: #d89825;
+}
+ul.social-icons >li a:hover {
+  color: #e1ad4f;
+}
+.sp-page-title {
+  background: #e1ad4f;
+}
+.resort-slider .resort-slider-content h1 {
+
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+#sp-page-builder .sppb-section-title .sppb-title-heading,
+.resort-discount .sppb-addon-cta .sppb-cta-title {
+  color: #0078bf;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #F36825;
+}
+.sp-module ul >li >a:hover {
+  color: #759b26;
+}
+.sp-module .latestnews >div >a {
+  color: #493e3e;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #e1ad4f;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #e1ad4f;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #e1ad4f;
+}
+.search .btn-toolbar button {
+  background: #e1ad4f;
+}
+.about-description-video .sppb-addon-title {
+  color: #e1ad4f;
+}
+.post-format {
+  background: #e1ad4f;
+}
+.voting-symbol span.star.active:before {
+  color: #e1ad4f;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #d89825;
+}
+.entry-link,
+.entry-quote {
+  background: #e1ad4f;
+}
+blockquote {
+  border-color: #e1ad4f;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #e1ad4f;
+}
+#sp-footer {
+  background: #493e3e;
+}
+.sp-comingsoon body {
+  background-color: #e1ad4f;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #493e3e;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #493e3e;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #e1ad4f;
+  background-color: #e1ad4f;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #e1ad4f;
+  background-color: #e1ad4f;
+}
+#sp-top-bar {
+  background-color: #493e3e;
+}
+#sp-header .sp-megamenu-parent >li >a {
+  color: #121212;
+}
+.resort-search .checkin_module,
+.resort-search .checkout_module {
+  color: #493e3e;
+}
+.resort-feature-box .sppb-addon-feature:hover * {
+  color: #493e3e;
+}
+.resort-discount {
+  /*background-color: rgba(0, 0, 0, 0.4);*/
+}
+.resort-testimonials .sppb-carousel-indicators .active {
+  background-color: #493e3e;
+}
+.resort-testimonials .sppb-carousel-inner .sppb-item::before {
+  color: #493e3e;
+}
+.reservation_asset_item .asset-address-wrapper span {
+  color: #493e3e;
+}
+.reservation_asset_item #availability-search .availability-search-info {
+  background-color: #493e3e;
+}
+.reservation_asset_item .wizard .steps > li.reservation-tab .steps-text-wrapper >p small {
+  color: #493e3e;
+}
+.reservation_asset_item .tariff-box .trariff-price {
+  color: #493e3e;
+}
+.reservation_asset_item .tariff-box .trariff-price .min_tariff {
+  color: #493e3e;
+}
+.btn-primary:active,
+.btn-primary:focus,
+.sppb-btn-primary:active,
+.sppb-btn-primary:focus {
+  background-color: #e1ad4f;
+  border-color: #e1ad4f;
+}
+.btn-primary:disabled {
+  background-color: rgba(225,173,79,0.9);
+}
+.sp-contact-info li i {
+  color: #0078bf;
+}
+.sp-resort-weather .sp-weather-current i,
+.sp-resort-weather .sp-weather-forcasts i {
+  color: #e1ad4f;
+}
+#sp-header .sp-megamenu-parent >li.active>a,
+#sp-header .sp-megamenu-parent >li:hover>a {
+  color: #0078bf;
+}
+.has-slideshow#sp-header .sp-megamenu-parent >li.active>a,
+.has-slideshow#sp-header .sp-megamenu-parent >li:hover>a {
+  color: #f9c03f;
+}
+#sp-title .sp-page-title h2 {
+  color: #e1ad4f;
+}
+#sp-title .sp-page-title h2 .breadcrumb *,
+#sp-title .sp-page-title h2 .breadcrumb li:before,
+#sp-title .sp-page-title h2 .breadcrumb li:after {
+  color: #e1ad4f;
+}
+.resort-search .check-button button {
+  background-color: #e1ad4f;
+}
+.rooms-suits .sppb-addon-cta .text-center .sppb-cta-subtitle {
+  color: #e1ad4f;
+}
+.rooms-suits .sppb-carousel ol.sppb-carousel-indicators li.active {
+  background-color: #e1ad4f;
+}
+.reservation_asset_item .roomtype-info-wrapper h2 {
+  color: #e1ad4f;
+}
+.resort-discount .sppb-btn-default:hover {
+  border: solid 1px #e1ad4f;
+  color: #e1ad4f;
+}
+.carousel-title-hidden ol.sppb-carousel-indicators li.active {
+  background-color: #e1ad4f;
+}
+.resort-slider .resort-slider-content .sppb-btn-primary:hover {
+  border-color: #d80a5c;
+  color: #d80a5c;
+}
+.sppb-addon-latest-posts .latest-posts .latest-post .latest-post-inner:hover {
+  background-color: rgba(0, 120, 191, 0.5);
+}
+.sppb-addon-office-location-wrapper h3 {
+  color: #e1ad4f;
+  text-align: center;
+  text-transform: none;
+  font-weight: normal;
+}
+.sppb-addon-office-location-wrapper .sppb-icon {
+  color: #e1ad4f;
+}
+.resort-contact-from .sppb-addon-ajax-contact .sppb-form-group .sppb-form-control:hover,
+.resort-contact-from .sppb-addon-ajax-contact .sppb-form-group .sppb-form-control:focus {
+  border-color: #e1ad4f;
+}
+.resort-contact-from .sppb-addon-ajax-contact .sppb-btn-success {
+  background: #e1ad4f;
+  border-color: #e1ad4f;
+}
+.resort-testimonials {
+  background-color: rgba(225,173,79,0.7);
+}
+.reservation_asset_item .asset-title {
+  color: #e1ad4f;
+}
+.reservation_asset_item .button-row .inner p {
+  color: #e1ad4f;
+}
+.reservation_asset_item .button-row .btn-group button {
+  background-color: #e1ad4f;
+}
+.reservation_asset_item .button-row .btn-group button:hover {
+  background-color: #d89825;
+}
+.reservation_asset_item .asset-details-tab >li a {
+  border-bottom: 1px solid #e1ad4f;
+}
+.reservation_asset_item .roomtype-info-wrapper .roomtype-info-title {
+  color: #e1ad4f;
+}
+.reservation_asset_item .wizard .steps > li.reservation-tab.active {
+  background: #e1ad4f;
+}
+.reservation_asset_item .wizard .steps > li.reservation-tab.active >i {
+  background-color: #d89825;
+}
+.reservation_asset_item .coupon {
+  background: #e1ad4f;
+}
+.reservation_asset_item div.availability-calendar table tr th {
+  color: #e1ad4f;
+}
+.reservation_asset_item .tariff-box .room-form h4 {
+  color: #e1ad4f;
+}
+.blog .entry-header h2 a {
+  color: #e1ad4f;
+}
+.blog p.readmore a.btn-default {
+  background-color: #e1ad4f;
+}
+article.item-page .entry-header h2 {
+  color: #e1ad4f;
+}
+article.item-page .entry-header .article-info dd.createdby {
+  color: #e1ad4f;
+}
+article.item-page ul.pagenav li.previous a,
+article.item-page ul.pagenav li.next a {
+  background-color: #e1ad4f;
+}
+.sp-comingsoon-wrap .sp-comingsoon-countdown .days,
+.sp-comingsoon-wrap .sp-comingsoon-countdown .hours,
+.sp-comingsoon-wrap .sp-comingsoon-countdown .minutes,
+.sp-comingsoon-wrap .sp-comingsoon-countdown .seconds {
+  background: #e1ad4f;
+}
+.tariff-box .room-form h4 {
+  color: #e1ad4f;
+}
+.resort-slider .customNavigation a:hover {
+  color: #e1ad4f;
+}
+.resort-gallery .sppb-addon-gallery .gallery-image:hover .gallery-image-box .gallery-text-wrapper {
+  background-color: rgba(225,173,79,0.9);
+}
+#sp-reservation ul.menu li a {
+  background: #e1ad4f;
+}
