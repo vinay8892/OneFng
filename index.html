@@ -11,7 +11,35 @@
 		let otpRef="";
 	</script>
 
-	
+	<!-- Google tag (gtag.js) for Adwaords -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11134973561"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11134973561');
+</script>
+
+<!-- Event snippet for Submit Lead form OneFng conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11134973561/Z-9dCMDcuIYZEPnsyL0p',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -1590,7 +1618,7 @@ jQuery(document).ready(function(){
 					  else
 					  {
 					     jQuery('#main-pop').modal('hide');
-						 gtag('event', 'conversion', { 'send_to': 'AW-10799384961/HaAsCIr7oYADEIGTxp0o'});
+						 gtag_report_conversion('https://www.0nefng.com/');
 						 window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
 					  }
 					    
@@ -1606,7 +1634,7 @@ jQuery(document).ready(function(){
 				  else
 				  {
 					 jQuery('#main-pop').modal('hide');
-					 gtag('event', 'conversion', { 'send_to': 'AW-10799384961/HaAsCIr7oYADEIGTxp0o'});
+					 gtag_report_conversion('https://www.0nefng.com/');
 					 window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
 				  }
                 }
@@ -1652,13 +1680,13 @@ jQuery(document).ready(function(){
                 success: function () {
 				      jQuery("#pageloader").fadeOut();
                       jQuery('#main-pop').modal('hide');
-					  gtag('event', 'conversion', { 'send_to': 'AW-10799384961/HaAsCIr7oYADEIGTxp0o'});
+					  gtag_report_conversion('https://www.0nefng.com/');
                       window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 },
                 error: function () {
 				   jQuery("#pageloader").fadeOut();
                    jQuery('#main-pop').modal('hide');
-				   gtag('event', 'conversion', { 'send_to': 'AW-10799384961/HaAsCIr7oYADEIGTxp0o'});
+				   gtag_report_conversion('https://www.0nefng.com/');
                    window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 }
 
@@ -1693,13 +1721,13 @@ jQuery(document).ready(function(){
                 success: function () {
 				      jQuery("#pageloader").fadeOut();
                       jQuery('#price-model').modal('hide');
-					  gtag('event', 'conversion', { 'send_to': 'AW-10799384961/HaAsCIr7oYADEIGTxp0o'});
+					  gtag_report_conversion('https://www.0nefng.com/');
                       window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 },
                 error: function () {
 				   jQuery("#pageloader").fadeOut();
                    jQuery('#price-model').modal('hide');
-				   gtag('event', 'conversion', { 'send_to': 'AW-10799384961/HaAsCIr7oYADEIGTxp0o'});
+				   gtag_report_conversion('https://www.0nefng.com/');
                    window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 }
 
@@ -1734,13 +1762,13 @@ jQuery(document).ready(function(){
                 success: function () {
 				      jQuery("#pageloader").fadeOut();
                       jQuery('#interested-model').modal('hide');
-					  gtag('event', 'conversion', { 'send_to': 'AW-10799384961/HaAsCIr7oYADEIGTxp0o'});
+					 gtag_report_conversion('https://www.0nefng.com/');
                       window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 },
                 error: function () {
 				   jQuery("#pageloader").fadeOut();
                    jQuery('#interested-model').modal('hide');
-				   gtag('event', 'conversion', { 'send_to': 'AW-10799384961/HaAsCIr7oYADEIGTxp0o'});
+				   gtag_report_conversion('https://www.0nefng.com/');
                    window.alert('Thank you for showing interest in the project. Soon we will call you for exciting offers');
                 }
 
