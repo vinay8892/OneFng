@@ -13,7 +13,7 @@
 firebase.initializeApp(config);
 //create firebase database reference
 var dbRef = firebase.database();
-var compRef = dbRef.ref('compInfo');
+var compRef = dbRef.ref('compInfo_OneFng');
 var CustomersConsolidated=[];
 var DefaulterCustomers=[];
 //load older conatcts as well as any newly added one...
