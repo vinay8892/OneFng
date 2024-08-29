@@ -7,8 +7,8 @@ if (!Get_Cookie('popout')) {
             // var width = $(window).width();
             // if(width >= 767){
                 setTimeout(function(){
-                    //$('#modal-leadInfo-otp').hide();
-                    //$('#error-message-otp').hide();
+                    $('#modal-leadInfo-otp').hide();
+                    $('#error-message-otp').hide();
                     $('#main-pop').modal('show');
                 }, 15000);
             // }
