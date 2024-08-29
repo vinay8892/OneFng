@@ -9,8 +9,8 @@ if (!Get_Cookie('popout')) {
                 setTimeout(function(){
                     //$('#modal-leadInfo-otp').hide();
                     //$('#error-message-otp').hide();
-                    //$('#main-pop').modal('show');
-                }, 500000);
+                    $('#main-pop').modal('show');
+                }, 15000);
             // }
         });
     }
